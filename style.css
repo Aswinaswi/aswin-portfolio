@@ -200,6 +200,8 @@ section h2 {
   color: #ccc;
 }
 
+
+
 .footer-brand {
   font-family: var(--brand-font);
   font-size: 2rem;
@@ -240,32 +242,7 @@ section h2 {
 .mobile-bottom-nav a:hover {
   color: #fff;
 }
-.mobile-footer {
-  background-color: #111;
-  color: #ccc;
-  padding-bottom: 70px; /* space for fixed bottom nav */
-}
 
-.mobile-footer .footer-brand {
-  font-family: var(--brand-font);
-  font-size: 1.8rem;
-  color: var(--accent-color);
-}
-
-.mobile-footer .footer-icons {
-  margin-top: 0.5rem;
-}
-
-.mobile-footer .footer-icons a {
-  color: var(--accent-color);
-  margin: 0 0.5rem;
-  font-size: 1.3rem;
-  transition: 0.3s;
-}
-
-.mobile-footer .footer-icons a:hover {
-  color: #fff;
-}
 
 .scroll-to-top {
   position: fixed;
@@ -324,6 +301,7 @@ section h2 {
   nav.navbar .navbar-brand {
     font-size: 2rem;
   }
+  
 }
 
 /* 📱 Mobile and Small Screens */
@@ -352,6 +330,9 @@ section h2 {
     font-size: 1.1rem;
     margin: 0 0.3rem;
   }
+  .mobile-footer {
+    padding-bottom: 70px; /* space for fixed bottom nav */
+  }
 }
 
 /* 🔛 Tablet View (Optional Middle Breakpoint) */
@@ -366,6 +347,13 @@ section h2 {
 
   .navbar-brand {
     font-size: 1.8rem;
+  }
+  .mobile-footer {
+    padding-bottom: 70px; /* space for fixed bottom nav */
+  }
+  .footer-icons a {
+    font-size: 1.1rem;
+    margin: 0 0.3rem;
   }
 }
 
